@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw.cmd clean *)",
+      "Bash(java *)",
+      "Bash(cmd.exe /c \"mvnw.cmd clean compile 2>&1\")",
+      "Bash(gh auth *)",
+      "Bash(git reset *)",
+      "Bash(git add *)",
+      "Bash(git config *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
